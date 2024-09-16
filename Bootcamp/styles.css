@@ -1,0 +1,27 @@
+header { 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+body { font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(252, 168, 0);
+    margin: auto;
+    padding: 20px;
+
+}
+
+h1 { color: black;
+}
+
+pre { font-size: 20px;
+
+}
+
+.h6rubrik2  { color: darkred; font-size: 16px;
+}
+
+@media (min-width: 1000px) {
+    header { background-color: rgb(232, 222, 222);}
+    body {background-color: antiquewhite;}
+}
